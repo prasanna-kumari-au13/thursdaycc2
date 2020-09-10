@@ -1,0 +1,27 @@
+Q1. Write a user driven program which will print the tables of a  number given by user
+ANS      CODING:
+                        num = 2
+                        for i in range(0,11):
+                            print(num,  "x", i, "=" ,num*i)
+              OUTPUT:
+                                2 x 0 = 0
+                                2 x 1 = 2
+                                2 x 2 = 4
+                                2 x 3 = 6
+                                2 x 4 = 8
+                                2 x 5 = 10
+                                2 x 6 = 12
+                                2 x 7 = 14
+                                2 x 8 = 16
+                                2 x 9 = 18
+                                2 x 10 = 20
+Q2: Write a program tp print vowels in a string by the user
+ANS:
+                  CODING:
+                               string="ABCDEF"
+                               for i in string:
+                                     if(i=="A" or i=="E" or i=="I" or i=="O" or i=="U"):
+                                      print(i)
+                  OUTPUT:
+                                    A
+                                    E
